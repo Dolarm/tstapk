@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appfunctions>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.author.TvAuthorAppFunctionsImpl#navigateToAuthor</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти к автору, открой страницу канала, которому принадлежит открытое в данный момент видео. Если видео не открыто, откажись от выполнения команды, выполняй команду исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или каналы того же автора в других стриминговых сервисах</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.author.TvAuthorAppFunctionsImpl#openAuthorWithQuery</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Открой автора, открой страницу указанного канала внутри VK Видео. Если название канала указано некорректно или ты не можешь его однозначно идентифицировать, открой экран поисковой выдачи, выполняй команду исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или каналы того же автора в других стриминговых сервисах</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.author.TvAuthorAppFunctionsImpl#subscribeToAuthor</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Подписаться на автора, добавь канал в раздел «Подписки» в VK Видео. Выполняй команду только на странице конкретного канала или при открытом видео. Если эти условия нарушены, откажись от выполнения команды. Если пользователь уже подписан на этот канал, сообщи об этом пользователю, выполняй команду исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или каналы того же автора в других стриминговых сервисах</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.author.TvAuthorAppFunctionsImpl#unsubscribeFromAuthor</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Отписаться от автора, удали канал из раздела «Подписки» в VK Видео. Выполняй команду только на странице конкретного канала или при открытом видео. Если эти условия нарушены, откажись от выполнения команды. Если пользователь ранее не был подписан на этот канал, сообщи об этом пользователю, выполняй команду исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или каналы того же автора в других стриминговых сервисах</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.search.TvSearchAppFunctionsImpl#openSearchWithQuery</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Найди видео, поиск фильмов, сериалов, мультфильмов, шоу, клипов, трансляций и других форматов видео внутри VK Видео. Если пользователь явно указывает в запросе тип контента, номер части, сезона, серии, главы и подобное, оставь их в тексте запроса, открой экран поисковой выдачи. Если название видео полностью совпадает с голосовым запросом, сразу начни воспроизводить это видео, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openChannelsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел телеканалы, открой в приложении VK Видео раздел «Телеканалы». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openClipsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел клипы, открой в приложении VK Видео раздел «Клипы». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openCyberSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел киберспорт и игры, открой в приложении VK Видео раздел «Киберспорт и игры». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openFilmsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел фильмы, открой в приложении VK Видео раздел «Фильмы». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openInteractiveSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел интерактив, открой в приложении VK Видео раздел «Интерактив». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openKidsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел детям, открой в приложении VK Видео раздел «Детям». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openLibrarySection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел библиотека, открой в приложении VK Видео раздел «Библиотека». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openLiveSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел трансляции, открой в приложении VK Видео раздел «Трансляции». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openMainSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел главная, открой в приложении VK Видео раздел «Главная». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openMusicalSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел музыки, открой в приложении VK Видео раздел «Музыка». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openPoliticsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел политика, открой в приложении VK Видео раздел «Политика». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openSearchSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел поиск, открой в приложении VK Видео раздел «Поиск». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openSerialsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел сериалы, открой в приложении VK Видео раздел «Сериалы». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openSettingsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел настройки, открой в приложении VK Видео раздел «Настройки». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openShowSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел шоу, открой в приложении VK Видео раздел «Шоу». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openSportSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел спорт, открой в приложении VK Видео раздел «Спорт». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openSubscribeSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел подписки, открой в приложении VK Видео раздел «Подписки». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.sections.TvSectionAppFunctionsImpl#openTrendsSection</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Перейти в раздел тренды, открой в приложении VK Видео раздел «Тренды». Учитывай однокоренные слова: например, «раздел для детей», «спортивный раздел» и подобное, команда может быть вызвана из любого раздела VK Видео. Ищи контент исключительно внутри приложения VK Видео и не переводи пользователя в системный поиск или сторонние приложения</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.watchlater.TvWatchLaterAppFunctionsImpl#addToWatchLater</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Добавить в Смотреть позже, добавь открытое в данный момент видео в раздел «Смотреть позже» в VK Видео. Если видео не открыто, откажись от выполнения команды. Если видео уже было добавлено в раздел «Смотреть позже», сообщи об этом пользователю</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+    <appfunction>
+        <function_id>com.vk.tv.features.appfunctions.utils.functions.watchlater.TvWatchLaterAppFunctionsImpl#removeFromWatchLater</function_id>
+        <schema_category>vk_video_tv_app_functions</schema_category>
+        <schema_name>Убрать из Смотреть позже, удали открытое в данный момент видео из раздела «Смотреть позже» в VK Видео. Если видео не открыто, откажись от выполнения команды. Если видео ранее не было добавлено в раздел «Смотреть позже», сообщи об этом пользователю</schema_name>
+        <schema_version>1</schema_version>
+        <enabled_by_default>true</enabled_by_default>
+    </appfunction>
+</appfunctions>
